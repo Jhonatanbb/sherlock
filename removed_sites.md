@@ -1239,20 +1239,6 @@ As of 2021-11-21, 1337x seems to be down causing false positives.
   }
 ```
 
-### Coil
-As of 2021-11-26, Coil is returning false positives.
-
-```
-  "Coil": {
-    "errorMsg": "Whoops, the thing you were looking for isn't here",
-    "errorType": "message",
-    "url": "https://coil.com/u/{}",
-    "urlMain": "https://coil.com/",
-    "username_claimed": "adam",
-    "username_unclaimed": "noonewouldeverusethis7"
-  }
-```
-
 ### TM-Ladder
 As of 2021-11-30, TM-Ladder is returning false positives due to rate limits.
 
@@ -1277,4 +1263,19 @@ As of 2021-12-02, plug.dj is returning false positives because the service is do
     "username_claimed": "plug-dj-rock",
     "username_unclaimed": "noonewouldeverusethis7"
   }
+```
+
+## Facenama
+
+As of 2022-02-6, Facenama seems to be down their rebuilding their site
+```
+  "Facenama": {
+    "errorType": "response_url",
+    "errorUrl": "https://facenama.com/404.html",
+    "regexCheck": "^[-a-zA-Z0-9_]+$",
+    "url": "https://facenama.com/{}",
+    "urlMain": "https://facenama.com/",
+    "username_claimed": "blue",
+    "username_unclaimed": "noonewouldeverusethis77"
+  },
 ```

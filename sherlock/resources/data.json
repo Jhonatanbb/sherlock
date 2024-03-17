@@ -364,7 +364,8 @@
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Codecademy": {
-    "errorType": "status_code",
+    "errorMsg": "This profile could not be found",
+    "errorType": "message",
     "url": "https://www.codecademy.com/profiles/{}",
     "urlMain": "https://www.codecademy.com/",
     "username_claimed": "blue",
@@ -390,6 +391,23 @@
     "url": "https://www.codewars.com/users/{}",
     "urlMain": "https://www.codewars.com",
     "username_claimed": "example",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
+  "Coil": {
+    "errorMsg": "User not found",
+    "errorType": "message",
+    "request_method": "POST",
+    "request_payload": {
+      "operationName": "getCreator",
+      "query": "query getCreator($userShortName:String!){getCreator(userShortName:$userShortName){id}}",
+      "variables": {
+        "userShortName": "{}"
+      }
+    },
+    "url": "https://coil.com/u/{}",
+    "urlMain": "https://coil.com/",
+    "urlProbe": "https://coil.com/gateway",
+    "username_claimed": "adam",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "ColourLovers": {
@@ -567,15 +585,6 @@
     "urlProbe": "https://www.facebook.com/{}/videos/",
     "username_claimed": "hackerman",
     "username_unclaimed": "noonewouldeverusethis7"
-  },
-  "Facenama": {
-    "errorType": "response_url",
-    "errorUrl": "https://facenama.com/404.html",
-    "regexCheck": "^[-a-zA-Z0-9_]+$",
-    "url": "https://facenama.com/{}",
-    "urlMain": "https://facenama.com/",
-    "username_claimed": "blue",
-    "username_unclaimed": "noonewouldeverusethis77"
   },
   "FanCentro": {
     "errorMsg": "var environment",
@@ -1776,11 +1785,12 @@
   "Twitter": {
     "errorMsg": "<title>Error | nitter</title>",
     "errorType": "message",
+    "regexCheck": "^[a-zA-Z0-9_]{1,15}$",
     "url": "https://twitter.com/{}",
     "urlMain": "https://twitter.com/",
     "urlProbe": "https://nitter.net/{}",
     "username_claimed": "blue",
-    "username_unclaimed": "noonewouldeverusethis7"
+    "username_unclaimed": "noonewouldeveru"
   },
   "Typeracer": {
     "errorMsg": "Profile Not Found",

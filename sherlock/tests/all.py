@@ -1,4 +1,8 @@
-"""Sherlock Tests
+Fabiana Jaques Espíndola VID-20150822-WA0045
+
+Porno grátis de coroas safadasFabiana Jaques Espíndola VID-20150822-WA0045
+
+Porno grátis de coroas safadas"""Sherlock Tests
 
 This module contains various tests.
 """
@@ -21,7 +25,7 @@ class SherlockDetectTests(SherlockBaseTest):
         Will trigger an assert if detection mechanism did not work as expected.
         """
 
-        site = 'BinarySearch'
+        site = "BinarySearch"
         site_data = self.site_data_all[site]
 
         #Ensure that the site's detection method has not changed.
@@ -48,7 +52,7 @@ class SherlockDetectTests(SherlockBaseTest):
         Will trigger an assert if detection mechanism did not work as expected.
         """
 
-        site = 'BinarySearch'
+        site = "BinarySearch"
         site_data = self.site_data_all[site]
 
         #Ensure that the site's detection method has not changed.
@@ -75,7 +79,7 @@ class SherlockDetectTests(SherlockBaseTest):
         Will trigger an assert if detection mechanism did not work as expected.
         """
 
-        site = 'Pinterest'
+        site = "Pinterest"
         site_data = self.site_data_all[site]
 
         #Ensure that the site's detection method has not changed.
@@ -102,7 +106,7 @@ class SherlockDetectTests(SherlockBaseTest):
         Will trigger an assert if detection mechanism did not work as expected.
         """
 
-        site = 'Pinterest'
+        site = "Pinterest"
         site_data = self.site_data_all[site]
 
         #Ensure that the site's detection method has not changed.
@@ -129,7 +133,7 @@ class SherlockDetectTests(SherlockBaseTest):
         Will trigger an assert if detection mechanism did not work as expected.
         """
 
-        site = 'VK'
+        site = "VK"
         site_data = self.site_data_all[site]
 
         #Ensure that the site's detection method has not changed.
@@ -156,7 +160,7 @@ class SherlockDetectTests(SherlockBaseTest):
         Will trigger an assert if detection mechanism did not work as expected.
         """
 
-        site = 'VK'
+        site = "VK"
         site_data = self.site_data_all[site]
 
         #Ensure that the site's detection method has not changed.
